@@ -40,7 +40,7 @@ BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_CONFIG := gts9wifi_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/gts9wifi
+TARGET_KERNEL_SOURCE := kernel/samsung/sm8550
 
 
 # Partitions
