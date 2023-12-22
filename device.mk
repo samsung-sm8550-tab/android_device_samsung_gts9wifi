@@ -82,7 +82,7 @@ PRODUCT_PACKAGES += \
     init.recovery.samsung.rc \
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.ramplus:$(TARGET_COPY_OUT_RAMDISK)/fstab.ramplus
+    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 33

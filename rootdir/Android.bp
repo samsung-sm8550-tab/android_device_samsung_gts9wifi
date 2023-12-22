@@ -271,9 +271,16 @@ prebuilt_etc {
     vendor: true,
 }
 
-// fstab
+// RAM +
 prebuilt_etc {
     name: "fstab.ramplus",
     src: "etc/fstab.ramplus",
+    vendor: true,
+}
+
+// fstab
+prebuilt_etc {
+    name: "fstab.qcom",
+    src: "etc/fstab.qcom",
     vendor: true,
 }
