@@ -89,7 +89,9 @@ PRODUCT_SHIPPING_API_LEVEL := 33
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    kernel/samsung/sm8550 \
+    kernel/samsung/sm8550-modules
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/samsung/gts9wifi/gts9wifi-vendor.mk)
