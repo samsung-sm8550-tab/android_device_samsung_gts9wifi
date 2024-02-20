@@ -12,12 +12,6 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.class_main.sh",
-    src: "bin/init.class_main.sh",
-    vendor: true,
-}
-
-sh_binary {
     name: "init.crda.sh",
     src: "bin/init.crda.sh",
     vendor: true,
@@ -54,20 +48,8 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.qcom.early_boot.sh",
-    src: "bin/init.qcom.early_boot.sh",
-    vendor: true,
-}
-
-sh_binary {
     name: "init.qcom.efs.sync.sh",
     src: "bin/init.qcom.efs.sync.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.qcom.post_boot.sh",
-    src: "bin/init.qcom.post_boot.sh",
     vendor: true,
 }
 
@@ -80,18 +62,6 @@ sh_binary {
 sh_binary {
     name: "init.qcom.sensors.sh",
     src: "bin/init.qcom.sensors.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.qcom.sh",
-    src: "bin/init.qcom.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.qcom.usb.sh",
-    src: "bin/init.qcom.usb.sh",
     vendor: true,
 }
 
@@ -188,19 +158,6 @@ prebuilt_etc {
     vendor: true,
 }
 
-prebuilt_etc {
-    name: "init.qcom.rc",
-    src: "etc/init.qcom.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init.qcom.usb.rc",
-    src: "etc/init.qcom.usb.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
 
 prebuilt_etc {
     name: "init.qti.kernel.rc",
@@ -216,65 +173,9 @@ prebuilt_etc {
     vendor: true,
 }
 
-prebuilt_etc {
-    name: "init.samsung.bsp.rc",
-    src: "etc/init.samsung.bsp.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init.samsung.connector.rc",
-    src: "etc/init.samsung.connector.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init.samsung.display.rc",
-    src: "etc/init.samsung.display.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init.samsung.dp.rc",
-    src: "etc/init.samsung.dp.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init.samsung.power.rc",
-    src: "etc/init.samsung.power.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init.samsung.rc",
-    src: "etc/init.samsung.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
-    name: "init.target.rc",
-    src: "etc/init.target.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
 // RAM +
 prebuilt_etc {
     name: "fstab.ramplus",
     src: "etc/fstab.ramplus",
-    vendor: true,
-}
-
-// fstab
-prebuilt_etc {
-    name: "fstab.qcom",
-    src: "etc/fstab.qcom",
     vendor: true,
 }

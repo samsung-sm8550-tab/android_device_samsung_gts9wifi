@@ -142,7 +142,7 @@ vendor/lib/libsecnativefeature.so
 vendor/lib/libspeakercalibration.so
 vendor/lib/vendor.qti.hardware.AGMIPC@1.0-impl.so
 vendor/lib/vendor.qti.hardware.AGMIPC@1.0.so
-vendor/lib/vendor.qti.hardware.pal@1.0-impl.so
+-vendor/lib/vendor.qti.hardware.pal@1.0-impl.so
 vendor/lib/vendor.qti.hardware.pal@1.0.so
 vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so
 vendor/lib64/hw/android.hardware.audio.effect@4.0-impl.so
@@ -192,7 +192,7 @@ vendor/lib64/libsecnativefeature.so
 vendor/lib64/libspeakercalibration.so
 vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.AGMIPC@1.0.so
-vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
+-vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.pal@1.0.so
 
 # Audio (FX modules)
