@@ -766,8 +766,7 @@
         <item>611</item>
         <item>612</item>
     </integer-array>
-    
-    
+
     <string-array name="config_udfps_touch_detection_options">
         <item>0,0,1.0,0,1</item>
         <item>1,1,1.0,0,1</item>
@@ -786,5 +785,12 @@
          call captioning.
     -->
     <bool name="config_systemCaptionsServiceCallsEnabled" translatable="false">true</bool>
+
+    <!-- Enable lockscreen rotation by default -->
+    <bool name="config_enableLockScreenRotation">true</bool>
+
+    <!-- Indicate whether closing the lid causes the device to go to sleep and opening
+         it causes the device to wake up. The default is false. -->
+    <bool name="config_lidControlsSleep">true</bool>
 
 </resources>

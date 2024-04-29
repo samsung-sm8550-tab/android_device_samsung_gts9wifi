@@ -17,11 +17,11 @@ DEVICE_PATH := device/samsung/gts9wifi
 TARGET_OTA_ASSERT_DEVICE := gts9wifi
 
 # Display
-TARGET_SCREEN_DENSITY := 450
+TARGET_SCREEN_DENSITY := 320
 
 # Kernel
 TARGET_KERNEL_CONFIG += \
-	vendor/gts9wifi.config
+	gts9wifi_defconfig
 
 # Kernel Modules
 BOARD_SYSTEM_KERNEL_MODULES := $(strip $(shell cat $(DEVICE_PATH)/modules.load.system_dlkm))
@@ -61,6 +61,9 @@ TARGET_KERNEL_EXT_MODULES := \
   qcom/opensource/wlan/platform \
   qcom/opensource/wlan/qcacld-3.0/.qca6490 \
   qcom/opensource/bt-kernel
+
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
