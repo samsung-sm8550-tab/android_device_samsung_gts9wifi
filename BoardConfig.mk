@@ -51,7 +51,6 @@ TARGET_KERNEL_EXT_MODULES := \
   qcom/opensource/datarmnet-ext/perf \
   qcom/opensource/datarmnet-ext/perf_tether \
   qcom/opensource/datarmnet-ext/sch \
-  qcom/opensource/datarmnet-ext/shs \
   qcom/opensource/datarmnet-ext/wlan \
   qcom/opensource/securemsm-kernel \
   qcom/opensource/display-drivers/msm \
