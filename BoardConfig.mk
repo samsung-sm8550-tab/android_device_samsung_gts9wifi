@@ -69,7 +69,7 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 
 # partitions
-BOARD_RECOVERYIMAGE_PARTITION_SIZE := 109051904
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 109576192
 
 # Inherit the proprietary files
 include vendor/samsung/gts9wifi/BoardConfigVendor.mk
