@@ -23,6 +23,6 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="gts9wifixx-user 14 UP1A.231005.007 X710XXS3BXE1 release-keys"
+    PRIVATE_BUILD_DESC="gts9wifixx-user 14 UP1A.231005.007 X710XXS4BXG5 release-keys"
 
-BUILD_FINGERPRINT := samsung/gts9wifixx/gts9wifi:13/TP1A.220624.014/X710XXS3BXE1:user/release-keys
+BUILD_FINGERPRINT := samsung/gts9wifixx/gts9wifi:13/TP1A.220624.014/X710XXS4BXG5:user/release-keys
