@@ -271,8 +271,12 @@ vendor/firmware/tsp_stm/fts1ba90a_gts8p.bin
 vendor/firmware/tsp_stm/fts1ba90a_gts9.bin
 vendor/firmware/a740_zap.mbn
 vendor/firmware/a740_zap.mdt
+vendor/firmware/evass.b19
 vendor/firmware/evass.mbn
+vendor/firmware/evass.mdt
 vendor/firmware/CAMERA_ICP.mbn
+vendor/firmware/CAMERA_ICP.mdt
+vendor/firmware/CAMERA_ICP.b20
 
 # Stm32 keyboard
 vendor/firmware/keyboard_stm/stm32_gts9family.bin

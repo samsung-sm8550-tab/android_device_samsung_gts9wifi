@@ -1,0 +1,5 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="maintainer">Maintainer</string>
+    <string name="maintainer_name" translatable="false">superman243</string>
+    <string name="maintainer_telegram" translatable="false">https://github.com/488315</string>
+</resources>

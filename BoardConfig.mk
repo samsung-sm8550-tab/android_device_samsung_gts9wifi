@@ -23,6 +23,8 @@ TARGET_SCREEN_DENSITY := 320
 TARGET_KERNEL_CONFIG += \
 	gts9wifi_defconfig
 
+TARGET_KERNEL_CLANG_VERSION := r487747c
+
 # Kernel Modules
 BOARD_SYSTEM_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.system_dlkm))
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
