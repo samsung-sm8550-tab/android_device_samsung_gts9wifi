@@ -5,4 +5,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_gts9wifi.mk
+    $(LOCAL_DIR)/derp_gts9wifi.mk
+
