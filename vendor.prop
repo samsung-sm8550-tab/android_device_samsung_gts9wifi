@@ -29,3 +29,6 @@ ro.vendor.display.sensortype=2
 # DRM
 vendor.wv.oemcrypto.debug.enable_external_display_check=1
 vendor.wv.oemcrypto.debug.enable_hlos_data_path=true
+
+# Wifi-only
+ro.radio.noril=yes
