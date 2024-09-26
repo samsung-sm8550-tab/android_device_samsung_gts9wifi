@@ -1,8 +1,10 @@
 camera.disable_zsl_mode=1
 
+# Sdcard
 external_storage.casefold.enabled=1
 external_storage.projid.enabled=1
 external_storage.sdcardfs.enabled=0
+ro.crypto.metadata_init_delete_all_keys.enabled=true
 
 # udfpsProps
 ro.vendor.fingerprint.type=udfps
