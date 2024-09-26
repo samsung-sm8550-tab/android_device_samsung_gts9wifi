@@ -25,3 +25,7 @@ ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.kalama.api33
 
 # display
 ro.vendor.display.sensortype=2
+
+# DRM
+vendor.wv.oemcrypto.debug.enable_external_display_check=1
+vendor.wv.oemcrypto.debug.enable_hlos_data_path=true
