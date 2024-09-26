@@ -7,3 +7,6 @@ external_storage.sdcardfs.enabled=0
 # udfpsProps
 ro.vendor.fingerprint.type=udfps
 ro.vendor.fingerprint.sensor_location=800|2300|90
+
+# surfaceflinger
+debug.sf.treat_170m_as_sRGB=1
