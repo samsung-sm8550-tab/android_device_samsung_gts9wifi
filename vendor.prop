@@ -10,3 +10,4 @@ ro.vendor.fingerprint.sensor_location=800|2300|90
 
 # surfaceflinger
 debug.sf.treat_170m_as_sRGB=1
+ro.surface_flinger.enable_frame_rate_override=false
