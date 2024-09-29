@@ -26,6 +26,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResGts9wifi \
+    SystemUIResGts9wifi
 
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
