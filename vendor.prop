@@ -1,0 +1,3 @@
+# udfpsProps
+ro.vendor.fingerprint.type=udfps
+ro.vendor.fingerprint.sensor_location=800|2300|90
