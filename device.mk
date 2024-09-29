@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023 The LineageOS Project
+# Copyright (C) 2024 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -26,6 +26,12 @@ PRODUCT_SOONG_NAMESPACES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResGts9wifi \
+
+# WiFi firmware symlinks
+PRODUCT_PACKAGES += \
+    firmware_wlanmdsp.otaupdate_symlink \
+    firmware_wlan_mac.bin_symlink \
+    firmware_WCNSS_qcom_cfg.ini_symlink
 
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/samsung/sm8550-common/common.mk)
