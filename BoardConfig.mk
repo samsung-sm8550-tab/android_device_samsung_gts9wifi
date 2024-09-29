@@ -14,3 +14,6 @@ TARGET_OTA_ASSERT_DEVICE := gts9wifi
 
 # Display
 TARGET_SCREEN_DENSITY := 350
+
+# Kernel
+TARGET_KERNEL_CONFIG := gts9wifi_defconfig
