@@ -7,12 +7,10 @@ qcom_wdt_core.ko
 gh_virt_wdt.ko
 qcom_cpu_vendor_hooks.ko
 clk-rpmh.ko
-gcc-crow.ko
 gcc-kalama.ko
 icc-rpmh.ko
 camcc-kalama.ko
 qcom_ipcc.ko
-qcom_ipc_logging.ko
 qcom-pdc.ko
 thermal_minidump.ko
 qcom_tsens.ko
@@ -32,7 +30,6 @@ crypto-qti-hwkm.ko
 dcc_v2.ko
 dcvs_fp.ko
 debug-regulator.ko
-dispcc-crow.ko
 dispcc-kalama.ko
 tcsrcc-kalama.ko
 videocc-kalama.ko
@@ -55,14 +52,11 @@ mem_buf.ko
 memory_dump_v2.ko
 minidump.ko
 msm_dma_iommu_mapping.ko
-pinctrl-crow.ko
 pinctrl-kalama.ko
 qnoc-kalama.ko
-qnoc-crow.ko
 nvmem_qcom-spmi-sdam.ko
 phy-qcom-ufs.ko
 phy-qcom-ufs-qmp-v4-kalama.ko
-phy-qcom-ufs-qmp-v4-crow.ko
 phy-qcom-ufs-qrbtc-sdm845.ko
 arm_smmu.ko
 pinctrl-msm.ko
@@ -85,7 +79,6 @@ qcom_rpmh.ko
 qcom-scm.ko
 qnoc-qos.ko
 qrtr.ko
-qti-regmap-debugfs.ko
 regmap-spmi.ko
 rtc-pm8xxx.ko
 sec_class.ko
@@ -142,10 +135,6 @@ pinctrl-spmi-mpp.ko
 pwm-qti-lpg.ko
 pci-msm-drv.ko
 lcd.ko
-gpucc-crow.ko
-videocc-crow.ko
-camcc-crow.ko
-debugcc-crow.ko
 debugcc-kalama.ko
 gpucc-kalama.ko
 bam_dma.ko
@@ -161,7 +150,6 @@ glink_probe.ko
 glink_pkt.ko
 pmic_glink.ko
 altmode-glink.ko
-pmic-glink-debug.ko
 soc_sleep_stats.ko
 cdsprm.ko
 sysmon_subsystem_stats.ko
@@ -182,7 +170,6 @@ qcom_ramdump.ko
 panel_event_notifier.ko
 dmesg_dumper.ko
 sys_pm_vx.ko
-plh_scmi.ko
 qdss_bridge.ko
 fsa4480-i2c.ko
 msm_show_epoch.ko
@@ -192,10 +179,8 @@ spss_utils.ko
 spcom.ko
 msm_performance.ko
 qcom_va_minidump.ko
-qfprom-sys.ko
 wcd_usbss_i2c.ko
 qti-fixed-regulator.ko
-qpnp-amoled-regulator.ko
 qti-ocp-notifier.ko
 hvc_gunyah.ko
 msm_geni_serial.ko
@@ -203,7 +188,6 @@ frpc-adsprpc.ko
 rdbg.ko
 lt9611uxc.ko
 qseecom_proxy.ko
-qcom-i2c-pmic.ko
 sec_ap_pmic.ko
 sg.ko
 spi-msm-geni.ko
@@ -267,10 +251,8 @@ qcom_lpm.ko
 sdhci-msm-sec.ko
 leds-qti-flash.ko
 leds-qti-tri-led.ko
-leds-qpnp-vibrator-ldo.ko
 memlat_vendor.ko
 cpufreq_stats_vendor.ko
-plh_vendor.ko
 ipa_fmwk.ko
 ep_pcie_drv.ko
 mhi_dev_drv.ko
@@ -290,7 +272,6 @@ gh_irq_lend.ko
 gh_mem_notifier.ko
 qcom-spmi-adc5-gen3.ko
 qcom-vadc-common.ko
-qti-glink-adc.ko
 industrialio-buffer-cb.ko
 nvmem_qfprom.ko
 icc-test.ko
@@ -306,7 +287,6 @@ sec_qc_hw_param.ko
 sec_qc_rst_exinfo.ko
 sec_qc_rdx_bootdev.ko
 sec_reboot_cmd.ko
-hdm.ko
 switch_class.ko
 switch_gpio.ko
 sec_panel_notifier_v2.ko
@@ -329,7 +309,6 @@ sec_cmd.ko
 fingerprint.ko
 fingerprint_sysfs.ko
 sb-core.ko
-input_booster_lkm.ko
 sm5714-charger.ko
 pdic_notifier_module.ko
 abc_hub.ko
@@ -356,11 +335,6 @@ slimbus.ko
 slim-qcom-ngd-ctrl.ko
 hwmon.ko
 qti_amoled_ecm.ko
-stm_core.ko
-stm_p_basic.ko
-stm_p_ost.ko
-stm_console.ko
-stm_ftrace.ko
 sensors_core.ko
 adsp_factory_module.ko
 snd-usb-audio-qmi.ko
