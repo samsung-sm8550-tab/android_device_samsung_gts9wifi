@@ -1,0 +1,9 @@
+[
+  {
+    "repository": "android_hardware_samsung",
+    "target_path": "hardware/samsung",
+    "remote": "samsung-sm8550-dev",
+    "branch": "lineage-21"
+  }
+]
+
