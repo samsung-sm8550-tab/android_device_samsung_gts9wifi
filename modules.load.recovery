@@ -274,7 +274,6 @@ qcom-spmi-adc5-gen3.ko
 qcom-vadc-common.ko
 industrialio-buffer-cb.ko
 nvmem_qfprom.ko
-icc-test.ko
 sec_arm64_fsimd_debug.ko
 sec_arm64_debug.ko
 sec_qc_rbcmd.ko
