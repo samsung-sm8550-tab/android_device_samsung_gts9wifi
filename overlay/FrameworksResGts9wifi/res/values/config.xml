@@ -1389,4 +1389,7 @@
     -->
     <bool name="config_systemCaptionsServiceCallsEnabled" translatable="false">true</bool>
 
+    <!-- Whether device supports double tap to wake -->
+    <bool name="config_supportDoubleTapWake">true</bool>
+
 </resources>
