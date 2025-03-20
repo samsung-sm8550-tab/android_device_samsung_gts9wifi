@@ -34,7 +34,7 @@ ro.radio.noril=yes
 ro.carrier=wifi-only
 
 # Brightness
-persist.sys.brightness.low.gamma=true
+sys.brightness.disable_gamma_conversion=true
 
 # Games
 ro.surface_flinger.game_default_frame_rate_override=120
