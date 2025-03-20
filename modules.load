@@ -29,6 +29,7 @@ pinctrl-spmi-mpp.ko
 pwm-qti-lpg.ko
 lcd.ko
 gpucc-kalama.ko
+debugcc-kalama.ko
 bam_dma.ko
 msm_gpi.ko
 pdr_interface.ko

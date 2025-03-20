@@ -120,6 +120,7 @@ qti-fixed-regulator.ko
 proxy-consumer.ko
 rpmh-regulator.ko
 stub-regulator.ko
+qcom_aoss.ko
 qti-ocp-notifier.ko
 hvc_gunyah.ko
 msm_geni_serial.ko
