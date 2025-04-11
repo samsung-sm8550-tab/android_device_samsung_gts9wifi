@@ -7,6 +7,13 @@ vendor/etc/audconf/OPEN/workspaceFileXml.qwsp
 # Audio configs
 vendor/etc/audio/sku_kalama/mixer_paths.xml
 vendor/etc/dolby/dax-default.xml
+vendor/etc/situation_audio_policy_volumes_sec.xml
+
+# Audio FX modules
+vendor/lib64/soundfx/libaudiosaplus_sec.so
+vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
+vendor/lib64/soundfx/libswdap.so
+vendor/lib64/soundfx/libswspatializer.so
 
 # Bluetooth firmware
 vendor/firmware/bt_nvm_loading.xml
@@ -122,6 +129,8 @@ vendor/lib64/com.qti.feature2.serializer.so
 vendor/lib64/com.qti.feature2.statsregeneration.so
 vendor/lib64/com.qti.feature2.stub.so
 vendor/lib64/com.qti.feature2.swmf.so
+vendor/lib64/com.qti.settings.sm8550.so
+vendor/lib64/com.qti.stats.common.so
 vendor/lib64/com.qualcomm.mcx.distortionmapper.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.offline.so
@@ -132,12 +141,14 @@ vendor/lib64/libcamximageformatutils.so
 vendor/lib64/libcamxswispiqmodule.so
 vendor/lib64/libchifeature2.so
 vendor/lib64/libcom.qti.chinodeutils.so
+vendor/lib64/libhypermotion_interface.so
 vendor/lib64/libsec2qc_conversion.so
 vendor/lib64/libthirdparty_zoomtranslator_imp.so
 vendor/lib64/libtriplecam_image_optical_zoom.so
 vendor/lib64/libTsAf_TS9Q.so;FIX_SONAME
 vendor/lib64/libTsAwb_GTS9.so
 vendor/lib64/libTsAwbFront_GTS9.so
+vendor/lib64/libvdis.uniplugin@1.0.so
 
 # Camera firmware
 vendor/firmware/CAMERA_ICP.mbn
@@ -188,6 +199,9 @@ vendor/bin/factory.ssc
 vendor/lib64/sensors.grip.so
 vendor/lib64/sensors.ssc.so
 
+# Thermal engine
+ vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service
+
 # Touchscreen firmware
 vendor/firmware/tsp_stm/fts1ba90a_gts8p.bin
 vendor/firmware/tsp_stm/fts1ba90a_gts9.bin
@@ -228,6 +242,13 @@ vendor/firmware/evass.mbn
 vendor/firmware/tsp_stm/fts1ba90a_gts8p.bin
 vendor/firmware/tsp_stm/fts1ba90a_gts9.bin
 vendor/firmware/vpu30_4v.mbn
+
+# Audio firmware
+vendor/firmware/SoundBoosterParam.bin
+vendor/firmware/cs35l45-dsp1-spk-prot-calib.bin
+vendor/firmware/cs35l45-dsp1-spk-prot.bin
+vendor/firmware/cs35l45-dsp1-spk-prot.wmfw
+vendor/firmware/dax_param.bin
 
 # Stm32 keyboard
 vendor/firmware/keyboard_stm/stm32_gts9family.bin
