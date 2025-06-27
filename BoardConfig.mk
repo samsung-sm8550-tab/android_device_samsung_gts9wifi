@@ -61,7 +61,6 @@ TARGET_KERNEL_EXT_MODULES := \
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
-TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/samsung:libudfps_extension.samsung
 TARGET_USES_FOD_ZPOS := true
 TARGET_USES_SAMSUNG_FINGERPRINT := true
 
