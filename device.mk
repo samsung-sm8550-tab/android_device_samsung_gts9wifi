@@ -10,6 +10,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
 # Tablet
 TARGET_IS_TABLET := true
+TARGET_IS_WIFI-ONLY := true
 
 # Characteristics
 PRODUCT_CHARACTERISTICS := tablet
