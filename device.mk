@@ -55,6 +55,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
    SamsungParts
 
+# Tablet core
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/tablet_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/tablet_core_hardware.xml
+
 # FOD
 $(call soong_config_set,samsung_udfps,udfps_zorder,0x20000000u)
 $(call soong_config_set,samsung_udfps,dim_layer_zorder,0x20000001u)
