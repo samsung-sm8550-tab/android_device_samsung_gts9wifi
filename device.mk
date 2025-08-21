@@ -31,12 +31,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# Overlays
-PRODUCT_PACKAGES += \
-    FrameworksResGts9wifi \
-    SystemUIResGts9wifi \
-    SettingsResGts9wifi \
-    ApertureResGts9wifi
+# Overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-lineage
 
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
