@@ -1,3 +1,6 @@
+# audio
+ro.audio.monitorRotation=true
+
 camera.disable_zsl_mode=1
 
 # Sdcard
