@@ -23,6 +23,10 @@ PRODUCT_MANUFACTURER := samsung
 ## S Pen
 TARGET_HAVE_SPEN := true
 
+# GMS
+WITH_GMS := true
+WITH_GMS_COMMS_SUITE := false
+
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
