@@ -52,7 +52,8 @@ PRODUCT_PACKAGES += \
 
 # SamsungParts
 PRODUCT_PACKAGES += \
-   SamsungParts
+   SamsungParts \
+   SPenActions
 
 # Tablet core
 PRODUCT_COPY_FILES += \
