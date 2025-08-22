@@ -14,23 +14,12 @@ ro.vendor.fingerprint.type=udfps_optical
 ro.vendor.fingerprint.sensor_location=800|2374|80
 ro.vendor.fingerprint.request_touch_event=true
 
-# Fingerprint sensor improvements for low brightness and landscape
-ro.vendor.fingerprint.low_brightness_support=true
-ro.vendor.fingerprint.landscape_support=true
-ro.vendor.fingerprint.brightness_threshold=10
-
 # surfaceflinger
 debug.sf.disable_backpressure=1
 debug.mdpcomp.logs=0
 debug.sf.treat_170m_as_sRGB=1
 ro.surface_flinger.primary_display_orientation=ORIENTATION_270
 persist.sys.sf.color_saturation=1.0
-
-# Display flickering fixes
-debug.sf.enable_hwc_vds=0
-debug.sf.hw=1
-debug.composition.type=c2d
-debug.sf.disable_client_composition_cache=1
 
 # gpu
 ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.kalama.api33
@@ -51,7 +40,3 @@ sys.brightness.disable_gamma_conversion=true
 
 # Fingerprint
 ro.vendor.fingerprint.rectangular_sensor_location=721,2289,880,2448
-
-# S Pen Bluetooth support
-ro.vendor.spen.bluetooth.enabled=true
-persist.vendor.spen.ble.support=true
