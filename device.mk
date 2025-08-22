@@ -53,7 +53,8 @@ PRODUCT_PACKAGES += \
 # SamsungParts
 PRODUCT_PACKAGES += \
    SamsungParts \
-   SPenActions
+   SPenActions \
+   vendor.samsung.hardware.spen-service
 
 # Tablet core
 PRODUCT_COPY_FILES += \
