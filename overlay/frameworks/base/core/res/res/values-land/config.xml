@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024-2025 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Landscape-specific configurations for better tablet experience -->
+    
+    <!-- Lockscreen rotation enabled in landscape -->
+    <bool name="config_enableLockScreenRotation">true</bool>
+    
+    <!-- Allow all rotations for better tablet usability -->
+    <bool name="config_allowAllRotations">true</bool>
+    
+    <!-- Reduce rotation sensitivity for landscape mode -->
+    <integer name="config_longAnimTime">400</integer>
+
+</resources>

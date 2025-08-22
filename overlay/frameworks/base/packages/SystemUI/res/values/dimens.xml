@@ -12,6 +12,23 @@
     <!-- Bottom margin size when fingerprint in display is active -->
     <dimen name="keyguard_indication_margin_bottom">20dp</dimen>
 
+    <!-- Tablet-specific UI spacing improvements -->
+    <!-- Status bar height for tablet -->
+    <dimen name="status_bar_height">32dp</dimen>
+    
+    <!-- Navigation bar height for tablet -->
+    <dimen name="navigation_bar_height">56dp</dimen>
+    
+    <!-- Quick settings tile height for better tablet layout -->
+    <dimen name="qs_tile_height">88dp</dimen>
+    
+    <!-- Notification panel width constraints for tablet -->
+    <dimen name="notification_panel_width">480dp</dimen>
+    
+    <!-- Lock screen shortcuts container margin -->
+    <dimen name="keyguard_affordance_height">56dp</dimen>
+    <dimen name="keyguard_affordance_width">56dp</dimen>
+
     <!-- Location on the screen of the center of the fingerprint sensor. For devices with under
       display fingerprint sensors, this directly corresponds to the fingerprint sensor's location.
       For devices with sensors on the back of the device, this corresponds to the location on the

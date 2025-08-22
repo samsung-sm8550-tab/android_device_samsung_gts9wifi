@@ -9,4 +9,12 @@
      <bool name="config_vibrateOnIconAnimation">true</bool>
      
      <color name="config_udfpsColor">#00000000</color>
+    
+    <!-- Under-display fingerprint sensor configuration -->
+    <!-- Enable fingerprint sensor in landscape and low brightness -->
+    <bool name="config_udfpsSupportsLandscape">true</bool>
+    <bool name="config_udfpsLowBrightnessSupport">true</bool>
+    
+    <!-- Fingerprint sensor brightness threshold (lower = works in dimmer conditions) -->
+    <integer name="config_udfpsBrightnessThreshold">10</integer>
 </resources>

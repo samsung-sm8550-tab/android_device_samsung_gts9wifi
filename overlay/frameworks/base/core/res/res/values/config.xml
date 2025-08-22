@@ -1087,6 +1087,13 @@
          rotations as the default behavior. -->
     <bool name="config_allowAllRotations">true</bool>
 
+    <!-- Rotation settings for better tablet experience -->
+    <!-- Accelerometer rotation angles (setting to higher values reduces sensitivity) -->
+    <integer name="config_autoRotatePreference">0</integer>
+    
+    <!-- Time required to rotate the screen (in milliseconds) -->
+    <integer name="config_longAnimTime">300</integer>
+
     <!-- Indicate whether closing the lid causes the device to go to sleep and opening
          it causes the device to wake up.
          The default is false. -->
