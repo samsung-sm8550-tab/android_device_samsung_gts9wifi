@@ -15,6 +15,10 @@ vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
 vendor/lib64/soundfx/libswdap.so
 vendor/lib64/soundfx/libswspatializer.so
 
+# SoundAlive
+vendor/lib64/lib_SamsungRec_07010.so
+vendor/lib64/lib_SoundAlive_play_plus_ver800.so
+
 # Bluetooth firmware
 vendor/firmware/bt_nvm_loading.xml
 vendor/firmware/bt_nvm_loading_2nd.xml
