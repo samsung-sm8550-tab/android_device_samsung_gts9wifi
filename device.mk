@@ -68,6 +68,7 @@ $(call soong_config_set, qtidisplay, udfps, true)
 $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/samsung:libudfps_extension.samsung)
 $(call soong_config_set,samsungTouchVars,enableGloveMode,true)
 $(call soong_config_set,samsungTouchVars,enableHighTouchPollingRate,true)
+$(call soong_config_set,samsungTouchVars,enableStylusMode,false)
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/samsung/sm8550-common/common.mk)
 
