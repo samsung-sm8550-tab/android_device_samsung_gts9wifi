@@ -261,6 +261,27 @@ vendor/firmware/hpnv21g.bb7
 vendor/firmware/hpnv21g.bb9
 vendor/firmware/hpnv21g.bin
 
+# EVA firmware
+vendor/firmware/evass.b00
+vendor/firmware/evass.b01
+vendor/firmware/evass.b02
+vendor/firmware/evass.b03
+vendor/firmware/evass.b04
+vendor/firmware/evass.b05
+vendor/firmware/evass.b06
+vendor/firmware/evass.b07
+vendor/firmware/evass.b08
+vendor/firmware/evass.b09
+vendor/firmware/evass.b10
+vendor/firmware/evass.b11
+vendor/firmware/evass.b12
+vendor/firmware/evass.b13
+vendor/firmware/evass.b14
+vendor/firmware/evass.b15
+vendor/firmware/evass.b16
+vendor/firmware/evass.b17
+vendor/firmware/evass.b18
+
 # Wifi firmware
 vendor/firmware/qca6490/amss20.bin
 vendor/firmware/qca6490/bdwlan.elf
