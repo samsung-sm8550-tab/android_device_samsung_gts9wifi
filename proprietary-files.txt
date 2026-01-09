@@ -327,6 +327,13 @@ vendor/firmware/evass.mbn
 vendor/firmware/tsp_stm/fts1ba90a_gts8p.bin
 vendor/firmware/tsp_stm/fts1ba90a_gts9.bin
 vendor/firmware/vpu30_4v.mbn
+vendor/firmware/vpu20_4v.mbn
+vendor/firmware/vpu20_4v_unsigned.mbn
+vendor/firmware/vpu30_4v_16mb.mbn
+vendor/firmware/vpu30_4v_16mb_unsigned.mbn
+vendor/firmware/vpu30_4v_unsigned.mbn
+vendor/firmware/vpu33_4v.mbn
+vendor/firmware/vpu33_4v_unsigned.mbn
 
 # Audio firmware
 vendor/firmware/SoundBoosterParam.bin
