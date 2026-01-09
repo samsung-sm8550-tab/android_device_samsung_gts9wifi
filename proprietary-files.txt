@@ -319,9 +319,14 @@ vendor/firmware/qca6490/bdwlang.elf2
 vendor/firmware/qca6490/m3.bin
 vendor/firmware/qca6490/regdb.bin
 
-# VPU
+# VPU / Adreno firmware
 vendor/firmware/a740_zap.mbn
 vendor/firmware/a740_zap.mdt
+vendor/firmware/a740_sqe.fw
+vendor/firmware/a740_zap.b00
+vendor/firmware/a740_zap.b01
+vendor/firmware/a740_zap.elf
+vendor/firmware/gmu_gen70200.bin
 vendor/firmware/abov/a96t396_gts9_wifi.bin
 vendor/firmware/evass.mbn
 vendor/firmware/tsp_stm/fts1ba90a_gts8p.bin
