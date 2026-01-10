@@ -6,6 +6,7 @@ vendor/etc/audconf/OPEN/workspaceFileXml.qwsp
 
 # Audio
 vendor/lib64/hw/audio.primary.kalama.so
+vendor/lib64/libagm.so
 vendor/lib64/libar-pal.so
 vendor/lib64/librecordalive.so
 
