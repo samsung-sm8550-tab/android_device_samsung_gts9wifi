@@ -200,6 +200,11 @@ vendor/lib64/vendor.samsung.hardware.bluetooth.audio-V1-ndk.so
 vendor/lib64/vendor.samsung.hardware.bluetooth.audio-impl.so
 vendor/lib64/vendor.samsung.hardware.bluetooth@2.0.so
 
+# Fingerprint
+vendor/lib64/libsfp_sensor.so
+vendor/lib64/libqfp_sensortest.so
+vendor/lib64/libsfp_teegw.so
+
 
 # qms
 vendor/bin/qms
