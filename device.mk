@@ -56,6 +56,10 @@ PRODUCT_PACKAGES += \
    SPenActions \
    vendor.samsung.hardware.spen-service
 
+# Touch
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch-service.samsung
+
 # Tablet core
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/tablet_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/tablet_core_hardware.xml
