@@ -11,8 +11,10 @@ vendor/lib64/librecordalive.so
 
 # Audio configs
 vendor/etc/audio/sku_kalama/mixer_paths.xml
+vendor/etc/audio/sku_kalama/resourcemanager.xml
 vendor/etc/dolby/dax-default.xml
 vendor/etc/situation_audio_policy_volumes_sec.xml
+vendor/etc/usecaseKvManager.xml
 
 # Audio FX modules
 vendor/lib64/soundfx/libaudiosaplus_sec.so
@@ -205,6 +207,8 @@ vendor/lib64/libsfp_sensor.so
 vendor/lib64/libqfp_sensortest.so
 vendor/lib64/libsfp_teegw.so
 
+# Media
+vendor/lib64/libqc2audio_hwaudiocodec.so
 
 # qms
 vendor/bin/qms
