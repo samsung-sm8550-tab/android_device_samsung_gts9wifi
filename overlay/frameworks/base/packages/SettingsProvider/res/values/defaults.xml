@@ -18,7 +18,7 @@
 -->
 <resources>
     <!-- Default for Settings.Global.DEVICE_NAME $1=MODEL-->
-    <string name="def_device_name_simple">Galaxy Tab S9 Wifi</string>
+    <string name="def_device_name_simple">Galaxy Tab S9</string>
 
     <!-- Enable auto rotation switching by default -->
     <bool name="def_accelerometer_rotation">true</bool>
