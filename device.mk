@@ -52,7 +52,6 @@ PRODUCT_PACKAGES += \
 
 # SamsungParts
 PRODUCT_PACKAGES += \
-   SamsungParts \
    SPenActions \
    vendor.samsung.hardware.spen-service
 
