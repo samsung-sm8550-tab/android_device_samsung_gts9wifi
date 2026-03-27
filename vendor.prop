@@ -40,3 +40,8 @@ sys.brightness.disable_gamma_conversion=true
 
 # Fingerprint
 ro.vendor.fingerprint.rectangular_sensor_location=721,2289,880,2448
+
+# Vibrator HAL
+ro.vendor.vibrator_hal.click_duration=60
+ro.vendor.vibrator_hal.texture_tick_duration=40
+ro.vendor.vibrator_hal.tick_duration=40
