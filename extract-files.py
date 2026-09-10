@@ -37,6 +37,21 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    # AudioReach leaves the Samsung custom key empty for ordinary VoIP.
+    'vendor/etc/audio/sku_kalama/resourcemanager.xml': blob_fixup()
+        .regex_replace(
+            r'(<name>PAL_STREAM_VOIP_RX</name>\n)([ \t]*)'
+            r'<priority>[0-9]+</priority>\n'
+            r'((?:[ \t]*<(?:samplerate|bit_width)>[0-9]+'
+            r'</(?:samplerate|bit_width)>\n)*)'
+            r'([ \t]*<custom-config key="voip_comm">\n'
+            r'[ \t]*<priority>([0-9]+)</priority>\n'
+            r'[ \t]*<snd_device_name>'
+            r'(voip-comm-(?:speaker|handset|headset|usb-headset))'
+            r'</snd_device_name>)',
+            r'\1\2<priority>\5</priority>\n'
+            r'\2<snd_device_name>\6</snd_device_name>\n\3\4',
+        ),
     # DMA-BUF cleanup passes file descriptors and ignores ion_close's result.
     # Use libc close; the platform libion implementation is a no-op stub.
     'vendor/lib64/libsfp_teegw.so': blob_fixup()
