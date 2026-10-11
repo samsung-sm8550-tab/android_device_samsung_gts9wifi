@@ -4,6 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+from extract_utils.fixups_blob import (
+    blob_fixup,
+    blob_fixups_user_type,
+)
 from extract_utils.fixups_lib import (
     lib_fixups,
     lib_fixups_user_type,
@@ -32,9 +36,17 @@ lib_fixups: lib_fixups_user_type = {
     ): lib_fixup_vendor_suffix,
 }
 
+blob_fixups: blob_fixups_user_type = {
+    # DMA-BUF cleanup passes file descriptors and ignores ion_close's result.
+    # Use libc close; the platform libion implementation is a no-op stub.
+    'vendor/lib64/libsfp_teegw.so': blob_fixup()
+        .binary_regex_replace(b'ion_close\x00', b'close\x00\x00\x00\x00\x00'),
+}
+
 module = ExtractUtilsModule(
     'gts9wifi',
     'samsung',
+    blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
     namespace_imports=namespace_imports,
 )
