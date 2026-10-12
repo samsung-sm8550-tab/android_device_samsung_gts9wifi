@@ -24,7 +24,6 @@ PRODUCT_MANUFACTURER := samsung
 TARGET_HAVE_SPEN := true
 
 # GMS
-WITH_GMS := true
 WITH_GMS_COMMS_SUITE := false
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
