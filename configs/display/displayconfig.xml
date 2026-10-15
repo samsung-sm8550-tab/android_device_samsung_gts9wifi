@@ -1,43 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <displayConfiguration>
+    <!-- Nominal luminance from the SM-X710 stock framework overlay.
+         SDM maps normalized backlight to platform levels 1 through 456. -->
     <screenBrightnessMap interpolation="linear">
         <point>
-            <value>0.007843138</value>
-            <nits>2.0</nits>
+            <value>0.000000000</value>
+            <nits>2.311</nits>
         </point>
         <point>
-            <value>0.05</value>
-            <nits>10.0</nits>
+            <value>0.015384615</value>
+            <nits>6.642</nits>
         </point>
         <point>
-            <value>0.15</value>
-            <nits>35.0</nits>
+            <value>0.032967033</value>
+            <nits>13.430</nits>
         </point>
         <point>
-            <value>0.30</value>
-            <nits>90.0</nits>
+            <value>0.068131868</value>
+            <nits>30.143</nits>
         </point>
         <point>
-            <value>0.45</value>
-            <nits>180.0</nits>
+            <value>0.103296703</value>
+            <nits>49.675</nits>
         </point>
         <point>
-            <value>0.55921053</value>
-            <nits>300.0</nits>
+            <value>0.138461538</value>
+            <nits>71.296</nits>
         </point>
         <point>
-            <value>0.75</value>
-            <nits>430.0</nits>
+            <value>0.208791209</value>
+            <nits>119.389</nits>
         </point>
         <point>
-            <value>1.0</value>
-            <nits>540.0</nits>
+            <value>0.279120879</value>
+            <nits>172.627</nits>
+        </point>
+        <point>
+            <value>0.349450549</value>
+            <nits>230.050</nits>
+        </point>
+        <point>
+            <value>0.419780220</value>
+            <nits>291.045</nits>
+        </point>
+        <point>
+            <value>0.490109890</value>
+            <nits>355.180</nits>
+        </point>
+        <point>
+            <value>0.558241758</value>
+            <nits>420.000</nits>
+        </point>
+        <point>
+            <value>0.560439560</value>
+            <nits>421.650</nits>
+        </point>
+        <point>
+            <value>0.630769231</value>
+            <nits>474.350</nits>
+        </point>
+        <point>
+            <value>0.701098901</value>
+            <nits>527.060</nits>
+        </point>
+        <point>
+            <value>0.771428571</value>
+            <nits>579.760</nits>
+        </point>
+        <point>
+            <value>0.841758242</value>
+            <nits>632.470</nits>
+        </point>
+        <point>
+            <value>0.912087912</value>
+            <nits>685.180</nits>
+        </point>
+        <point>
+            <value>0.982417582</value>
+            <nits>737.880</nits>
+        </point>
+        <point>
+            <value>0.997802198</value>
+            <nits>749.410</nits>
+        </point>
+        <point>
+            <value>1.000000000</value>
+            <nits>750.000</nits>
         </point>
     </screenBrightnessMap>
     <highBrightnessMode enabled="true">
-        <transitionPoint>0.55921053</transitionPoint>
+        <transitionPoint>0.558241758</transitionPoint>
         <minimumHdrPercentOfScreen>0.1</minimumHdrPercentOfScreen>
-        <minimumLux>8700</minimumLux>
+        <minimumLux>3000</minimumLux>
         <timing>
             <timeWindowSecs>1800</timeWindowSecs>
             <timeMaxSecs>300</timeMaxSecs>
